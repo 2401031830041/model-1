@@ -1,0 +1,51 @@
+*{
+    background-color: lightgray;
+}
+
+
+
+
+#navbar{
+    background-color: rgba(1, 11, 24, 0.274);
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#game{
+    position :relative;
+    left: 30%;
+    background-color: rgba(1, 11, 24, 0.274);
+    text-align: center;
+   height: 480px;
+   width: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 10px;
+}
+#game h1{
+    background: transparent;
+}
+
+.input{
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;  
+}
+.input-box{
+    padding: 10px;
+    font-size: 40px;
+    border: 1px solid #e00000;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+

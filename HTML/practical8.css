@@ -1,0 +1,11 @@
+.class2 , p , h1{
+   height: 50px;
+   background-color: cadetblue; 
+   text-align: center;
+}
+.class1{
+    color: orange;
+}
+div p{
+    background-color: pink;
+}
