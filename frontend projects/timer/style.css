@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #002252;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.time {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  min-width: 80px;
+}
+
+.time span {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+}
